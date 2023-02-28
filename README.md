@@ -26,10 +26,10 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <img src="images/elim.png" alt="logo" width="140"  height="auto" />
+  <img src="img/elim.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-stenlisuryadinata-patch-1
+
   
 
   # PORTFOLIO MOBILE WEB APP 
@@ -69,11 +69,11 @@ stenlisuryadinata-patch-1
 
 **[ Portfolio Microverse project ]** is a mobile app project,  the objective of the project is to understand how to parse a Figma design to create a UI.
 
-- ![screenshot](/images/mobile_preview_v1.png)
-- ![screenshot](/images/mobile_preview_v2.png)
-- ![screenshot](/images/mobile_preview_v3.png)
-- ![screenshot](/images/mobile_preview_v4.png)
-- ![screenshot](/images/mobile-friendly-test.png)
+- ![screenshot](/img/mobile_preview_v1.png)
+- ![screenshot](/img/mobile_preview_v2.png)
+- ![screenshot](/img/mobile_preview_v3.png)
+- ![screenshot](/img/mobile_preview_v4.png)
+- ![screenshot](/img/mobile-friendly-test.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
