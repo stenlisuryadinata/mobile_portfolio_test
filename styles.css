@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .time-clock {
@@ -90,10 +91,8 @@
   outline: none;
 }
 
-
 #mynav {
   background-color: #fff;
-  
 }
 
 .mynav-list {
@@ -103,10 +102,7 @@
 
 .mynav-align {
   /* align-items: left; */
-
 }
-
-
 
 nav ul {
   /* display: flex; */
@@ -135,8 +131,8 @@ body {
 .text-header {
   display: flex;
   justify-content: center;
-  width: 270px;
-  padding: 206px 24px 24px;
+  width: 75%;
+  padding: 40% 5% 5%;
   color: black;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -158,7 +154,7 @@ body {
 .text-header-connect {
   display: flex;
   align-items: end;
-  padding: 12px 24px 0;
+  padding-left: 6%;
   font-family: "Poppins", sans-serif;
   color: #7f8cff;
   font-size: 16px;
@@ -170,8 +166,9 @@ body {
   color: #505f79;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 2%;
-  margin: 7%;
+  gap: 0.5%;
+  margin: 2%;
+  padding-left: 24px;
   list-style-type: none;
 }
 
@@ -185,6 +182,15 @@ nav ul li {
   padding: 20px 20px;
 }
 
+.dot {
+  height: 0.75em;
+  width: 0.75em;
+  padding: 0.2em; 
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .card-holder-1 {
   margin: 0;
   width: 327px;
@@ -196,7 +202,7 @@ nav ul li {
 
 .card-holder-place {
   width: 320px;
-  height: 552px;
+  height: 600px;
   border: 1px solid #dfe1e6;
   border-radius: 5px;
   list-style-type: none;
@@ -216,25 +222,29 @@ nav ul li {
 }
 
 .card-details-title {
+  width: 60%;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   padding-left: 10px;
-  border: 1px solid black;
+  border: 0 solid black;
   color: #172b4d;
   list-style-type: none;
 }
 
 .card-details-subtitle {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
   padding-left: 10px;
+  vertical-align: bottom;
+  list-style-type: none;
 }
 
 .card-details-subtitle-1 {
-  color: #344563;
+  color: #344563; 
+  /* color: #7a869a; */
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -258,8 +268,8 @@ nav ul li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2px;
-  padding-left: 20px;
-  border-radius: 5px;
+  padding-left: 5%;
+  border-radius: 1%;
   color: #6070ff;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -268,24 +278,27 @@ nav ul li {
 }
 
 .card-details-topics-text-1 {
-  margin-top: 30px;
-  width: 35px;
+  margin-top: 0;
+  width: 65px;
+  height: 45px;
   padding: 10px 5px;
   background-color: #ebebff;
   border-radius: 10px;
 }
 
 .card-details-topics-text-2 {
-  margin-top: 30px;
-  width: 35px;
+  margin-top: 0;
+  width: 65px;
+  height: 45px;
   padding: 10px 5px;
   background-color: #ebebff;
   border-radius: 10px;
 }
 
 .card-details-topics-text-3 {
-  margin-top: 30px;
-  width: 75px;
+  margin-top: 0px;
+  width: 85px;
+  height: 45px;
   padding: 10px 5px;
   background-color: #ebebff;
   border-radius: 10px;
@@ -298,13 +311,14 @@ nav ul li {
 
 .btn {
   width: 150px;
-  height: 30px;
+  height: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
   border: 1px solid #396df2;
+  border-radius: 7%;
 }
 
 .footer-holder-1 {
@@ -364,6 +378,30 @@ nav ul li {
   flex-grow: 0;
 }
 
+.text-header-connect-footer {
+  display: flex;
+  align-items: end;
+  padding-left: 0;
+  font-family: "Poppins", sans-serif;
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.link-portfolio-text-footer {
+  color: #505f79;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: rows;
+  
+  gap: 1px;
+  margin: 2%;
+  padding-left: 12px;
+  list-style-type: none;
+}
+
+
 .footer-languages {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -373,7 +411,7 @@ nav ul li {
 }
 
 .footer-img {
-  width: 48px;
+  width: 60px;
   height: 48px;
   padding: 9px 24px 10px 12px;
 }
@@ -433,7 +471,7 @@ nav ul li {
 }
 
 .contact-form {
-  margin-top: 0;
+  margin-top: 240px;
   width: 375px;
   height: 718px;
   background: url("img/shapes.png");
@@ -444,7 +482,7 @@ nav ul li {
   width: 237px;
   height: 24px;
   margin-top: 24px;
-  padding-left: 36px;
+  padding-left: 3px;
 }
 
 .footer-frameworks {
@@ -579,6 +617,15 @@ nav ul li {
 
   .myhamburgeur {
     display: none;
+  }
+
+  .container {
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+    background: url("img/shapes.png") no-repeat;
+    background-size: cover;
+    background-color: #fff;
   }
 }
 
