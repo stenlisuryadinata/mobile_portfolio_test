@@ -51,13 +51,13 @@
   float: left;
   width: 300px;
   height: 20px;
-  padding: 7% 5%; 
+  padding: 7% 5%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 20px;
-  color: #6070ff; 
+  color: #6070ff;
 }
 
 .myhamburgeur {
@@ -174,7 +174,7 @@ nav ul li {
 .dot {
   height: 0.75em;
   width: 0.75em;
-  padding: 0.2em; 
+  padding: 0.2em;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -232,7 +232,7 @@ nav ul li {
 }
 
 .card-details-subtitle-1 {
-  color: #344563; 
+  color: #344563;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -599,7 +599,7 @@ nav ul li {
 
 @media only screen and (min-width: 378px) {
   .time-clock {
-    display: none; 
+    display: none;
   }
 
   .myhamburgeur {
@@ -618,8 +618,9 @@ nav ul li {
 
 @media only screen and (min-width: 768px) {
   .time-clock {
-    display: none; 
+    display: none;
   }
+  
   .myhamburgeur {
     display: none;
   }
@@ -632,7 +633,7 @@ nav ul li {
   }
 
   nav ul.show {
-  display: flex;
+    display: flex;
   }
 
   .my-button {
@@ -665,5 +666,5 @@ nav ul li {
 
   nav {
     background-color: #fff;
-  } 
+  }
 }
