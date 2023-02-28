@@ -25,8 +25,6 @@
   float: left;
   margin-left: 5px;
   width: 50px;
-
-  /* padding-right: 85%; */
 }
 
 .status-signal {
@@ -288,7 +286,7 @@ nav ul li {
 }
 
 .card-details-topics-text-3 {
-  margin-top: 0px;
+  margin-top: 0;
   width: 85px;
   height: 45px;
   padding: 10px 5px;
@@ -385,8 +383,7 @@ nav ul li {
   color: #505f79;
   display: inline-flex;
   flex-wrap: wrap;
-  flex-direction: rows;
-  
+  flex-direction: row;
   gap: 1px;
   margin: 2%;
   padding-left: 12px;
@@ -602,76 +599,72 @@ nav ul li {
 }
 
 @media only screen and (min-width: 378px) {
-  .time-clock {
-    display: none; 
-  }
+.time-clock {
+  display: none; 
+}
 
-  .myhamburgeur {
-    display: none;
+.myhamburgeur {
+      display: none;
   }
 
   .container {
-    margin-bottom: 0;
-    width: 100%;
-    height: auto;
-    background: url("img/shapes.png") no-repeat;
-    background-size: cover;
-    background-color: #fff;
+      margin-bottom: 0;
+      width: 100%;
+      height: auto;
+      background: url("img/shapes.png") no-repeat;
+      background-size: cover;
+      background-color: #fff;
   }
-
 }
-
 
 @media only screen and (min-width: 768px) {
   .time-clock {
-    display: none; 
+      display: none; 
+  }
+  .myhamburgeur {
+      display: none;
   }
 
-  .myhamburgeur {
-    display: none;
-  }
   nav ul {
-    display: none;
-    flex-direction: column;
-    align-items: right;
-    width: 100%;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
   }
 
   nav ul.show {
-    display: flex;
+  display: flex;
   }
 
   .my-button {
-    display: block;
+      display: block;
   }
 
   .link-portfolio {
-    display: block;
+      display: block;
   }
 }
 
 @media (max-width: 500px) {
   nav ul {
-    display: none;
-    /* flex-direction: row;
-    width: 100%; */
+      display: none;
   }
 
   nav ul.show {
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
+      display: flex;
+      flex-direction: column;
+      align-items: self-start;
   }
 
   .my-button {
-    display: block;
-  }
+      display: block;
+      }
 
   .link-portfolio {
-    display: block;
-  }
+      display: block;
+      }
 
   nav {
-    background-color: #fff;
-  } 
+          background-color: #fff;
+      } 
 }
