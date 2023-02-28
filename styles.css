@@ -21,7 +21,7 @@
   vertical-align: bottom;
 }
 
- .time-mobile {
+.time-mobile {
   float: left;
   margin-left: 5px;
   width: 50px;
@@ -36,7 +36,7 @@
 
 .status-internet {
   float: left;
-  padding-left: 2%px;
+  padding-left: 2%;
 }
 
 .status-battery {
@@ -47,8 +47,6 @@
 .navbar-list {
   display: inline;
   vertical-align: bottom;
-  
-
 }
 
 .mylogo {
