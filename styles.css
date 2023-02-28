@@ -293,7 +293,7 @@ nav ul li {
   height: 45px;
   padding: 10px 5px;
   background-color: #ebebff;
-  border-radius: 10px;
+  border-radius: 10%;
 }
 
 .card-details-btn {
@@ -392,7 +392,6 @@ nav ul li {
   padding-left: 12px;
   list-style-type: none;
 }
-
 
 .footer-languages {
   font-family: "Poppins", sans-serif;
@@ -619,6 +618,7 @@ nav ul li {
     background-size: cover;
     background-color: #fff;
   }
+
 }
 
 
@@ -630,7 +630,7 @@ nav ul li {
   .myhamburgeur {
     display: none;
   }
-  /* nav ul {
+  nav ul {
     display: none;
     flex-direction: column;
     align-items: right;
@@ -647,7 +647,7 @@ nav ul li {
 
   .link-portfolio {
     display: block;
-  } */
+  }
 }
 
 @media (max-width: 500px) {
