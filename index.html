@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -22,20 +22,25 @@
 <body>
     <section class="time-bar">
         <div class="time-clock">
-            <div class="time-text"><time datetime="20:00">9:41</time></div>
-            <div class="battery-meter"> <label for="battery"></label> <meter id="battery" value="2" min="0" max="3"></meter><br> </div>
+            <div class="time-mobile"><time datetime="20:00">9:41</time></div>
+                <div class="status-signal"><li><img src="img/cellular.png" width=20px height=20px></li></div>
+                <div class="status-internet"><img src="img/internet_signal.jpg" width=20px height=20px></div>
+                <div class="status-battery"><img src="img/battery.jpg" width=20px height=20px></div>
+            </ul>
+            <div class="battery-meter"> <label for="battery"></label> <br> </div>
         </div>
         <nav>
             <div class="navbar-mylogo">
                 <div class="navbar-list">
-                    <div class="mylogo">
-                        <h2>My Logo</h2>
-                    </div> <button type="button"></button><i class="fas fa-bars"></i> </button>
-                    <ul id="mynav">
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">portfolio</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
+                    <div class="mylogo"><h2>My Logo</h2></div>
+                    <div class="myhamburgeur"> <button class="myhamburgeur-button" id="myhamburgeur-buttons" type="button"><img class="myhamburgeur-img" src="img/hamburgeur.png"></button>
+                    <div class="mynavbar" id="mynavbars">
+                        <ul id="mynav">
+                            <li class="mynav-list"><a class="mynav-align" href="#">about</a></li>
+                            <li class="mynav-list"><a class="mynav-align" href="#">portfolio</a></li>
+                            <li class="mynav-list"><a class="mynav-align" href="#">contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -223,6 +228,7 @@
         </div>
     </section>
     <script src="index.js"></script>
+    <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by alfanz - Flaticon</a>
 </body>
 
 </html>
