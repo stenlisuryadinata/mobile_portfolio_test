@@ -686,14 +686,14 @@ nav ul li {
     display: none;
   }
 
-  .container {
+  /* .container {
     margin-bottom: 0;
     width: 100%;
     height: auto;
     background: url("img/shapes.png") no-repeat;
     background-size: cover;
     background-color: #fff;
-  }
+  } */
 }
 
 @media only screen and (min-width: 768px) {
