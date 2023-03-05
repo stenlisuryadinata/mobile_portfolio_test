@@ -101,6 +101,31 @@ body {
   color: #091e42;
 }
 
+.key-features {
+  color: #000;
+}
+
+.key-features span {
+  
+  color: #6B778C;
+}
+
+.key-features span.highlight {
+  color:#344563;
+
+}
+
+.dot {
+  font-size: 17px;
+  color: #C1C7D0;
+}
+
+.dot::after {
+  content: url(./img/Counter.png);
+  margin: 0px 16px;
+  font-size: 14px;
+} 
+
 .mypage-title-dsc {
   height: 146px;
   font-family: 'Poppins', serif;
@@ -579,6 +604,13 @@ textarea:valid {
   color: whitesmoke;
 }
 
+hr.separator {
+  background-color: #DFE1E6;
+  border-width: 0;
+  color: #DFE1E6;
+  height: 1px;
+}
+
 @media only screen and (min-width: 768px) {
   .mylogo {
     top: 10px;
@@ -697,7 +729,7 @@ textarea:valid {
 
   .mycard-place-holder {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     grid-gap: 40px;
     color: white;
     right: 0;
@@ -717,10 +749,12 @@ textarea:valid {
 
   .mycard-wrapper-1 {
     content: url("img/project.png");
+    width: 100%;
   }
 
   .mycard-wrapper-2 {
     content: url("img/project2.png");
+    width: 90%;
     display: grid;
     grid-column: 2;
     grid-row: 1;
@@ -729,10 +763,12 @@ textarea:valid {
 
   .mycard-wrapper-3 {
     content: url("img/project3.png");
+    width: 100%;
   }
 
   .mycard-wrapper-4 {
     content: url("img/project4.png");
+    width: 90%;
     display: grid;
     grid-column: 2;
     grid-row: 1;
@@ -757,7 +793,7 @@ textarea:valid {
 
   .mycard-desc {
     width: 91%;
-    font-weight: 800;
+    font-weight: 500;
   }
 
   .mycard-btn {
