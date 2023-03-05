@@ -1,7 +1,7 @@
 * {
- box-sizing: inherit;
+  box-sizing: inherit;
 }
-  
+
 html {
   margin: 0;
   padding: 0;
@@ -10,11 +10,11 @@ html {
   font-size: 16px;
   vertical-align: baseline;
 }
-  
+
 ul {
   list-style-type: none;
 }
-  
+
 body {
   background-color: #f7f7f9;
   margin: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 /* Navbar and toggle bar */
-  
+
 .togglebar {
   position: fixed;
   width: 100%;
@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   height: 100px;
 }
-  
+
 .mylogo {
   top: 39px;
   width: 120px;
@@ -45,10 +45,10 @@ body {
   font-weight: 700;
   font-size: 28px;
   line-height: 20px;
-  color: #6070FF;
+  color: #6070ff;
   text-decoration: none;
 }
-  
+
 .mynavbar {
   background-color: white;
   display: flex;
@@ -56,12 +56,12 @@ body {
   left: -5%;
   position: relative;
 }
-  
+
 .mynavbar-ul {
   display: none;
   justify-content: space-between;
 }
-  
+
 .hamburgeur {
   height: 1.25rem;
   display: flex;
@@ -71,7 +71,7 @@ body {
 }
 
 /* mypage styling */
-  
+
 .mypage {
   height: 126vh;
   padding-top: 100px;
@@ -80,7 +80,7 @@ body {
   background-color: white;
   border-bottom-left-radius: 80px 80px;
 }
-  
+
 .mypage-container {
   position: relative;
   width: 50%;
@@ -88,7 +88,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-  
+
 .mypage-title-head {
   margin: 15px;
   display: flex;
@@ -98,9 +98,9 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #091E42;
+  color: #091e42;
 }
-  
+
 .mypage-title-dsc {
   height: 146px;
   font-family: 'Poppins', serif;
@@ -110,9 +110,9 @@ body {
   line-height: 28px;
   color: #344563;
 }
-  
+
 .mypage-title-connect {
-  top: 5px; 
+  top: 5px;
   margin: 15px;
   width: 121px;
   height: 6px;
@@ -132,25 +132,25 @@ body {
   display: flex;
   list-style-type: none;
 }
-  
+
 .mylink-portfolio {
   padding-right: 17px;
-  size: 10px;
+  font-size: 10px;
 }
-  
-.mylink-portfolio:hover{
+
+.mylink-portfolio:hover {
   transform: translateY(-10px);
 }
 
 /* mycard styling */
-  
+
 .mycard {
   width: 100%;
   top: -5px;
   position: relative;
   background: #f7f7f9;
 }
-  
+
 .mycard-container {
   padding-top: 116px;
   display: grid;
@@ -158,7 +158,7 @@ body {
   padding-bottom: 96px;
   row-gap: 20px;
 }
-  
+
 .mycard-place-holder {
   width: 295px;
   height: auto;
@@ -171,7 +171,7 @@ body {
   border-radius: 16px;
   background: #fff;
 }
-  
+
 .mycard-pic {
   width: 100%;
 }
@@ -187,7 +187,7 @@ body {
   font-weight: 700;
   color: #172b4d;
 }
-  
+
 .keyfeatures {
   display: flex;
   justify-content: stretch;
@@ -197,19 +197,19 @@ body {
   height: 16px;
   width: 126%;
 }
-  
-.mycard-features::after{
-  content:url(./img/Counter.png);
+
+.mycard-features::after {
+  content: url(./img/Counter.png);
   margin-left: 40px;
   font-size: 14px;
 }
-  
+
 .mycard-key-features {
   font-weight: 700;
 }
 
 .mycard-features {
-  width:30%;
+  width: 30%;
   height: 16px;
   font-family: 'Poppins', serif;
   font-style: normal;
@@ -217,7 +217,7 @@ body {
   font-size: 13px;
   color: #7a869a;
 }
-  
+
 .mycard-desc {
   position: relative;
   font-family: 'Poppins', serif;
@@ -226,18 +226,18 @@ body {
   font-size: 15px;
   color: #344563;
 }
-  
+
 .mycard-btn {
   position: relative;
 }
-  
+
 .mycard-button {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
   padding-left: 0;
 }
-  
+
 .mycard-button-li {
   margin-top: 0;
   padding: 6px 23px;
@@ -250,12 +250,12 @@ body {
   background: #ebebff;
   transition: 0.3s;
 }
-  
+
 .mycard-button-li:hover {
   color: white;
   background-color: #3a12db;
 }
-  
+
 .mycard-project-button {
   width: 124px;
   height: 48px;
@@ -270,7 +270,7 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
-  
+
 .mycard-project-btn {
   display: flex;
   align-items: center;
@@ -285,27 +285,27 @@ body {
   border: none;
   background: transparent;
 }
-  
+
 .mycard-project-button:hover {
   background-color: #396df2;
 }
-  
+
 .mycard-project-btn:hover {
   color: whitesmoke;
 }
 
 /* myprofile styling */
-  
+
 .myprofile-details {
   background: #fff;
   border-top-right-radius: 80px 80px;
 }
-  
+
 .myprofile-details-header {
   top: 116px;
   position: relative;
 }
-  
+
 .myprofile-details-header-title {
   display: flex;
   align-items: center;
@@ -313,7 +313,7 @@ body {
   font-style: normal;
   color: #172b4d;
 }
-  
+
 .myprofile-details-header-dsc {
   margin-top: 30px;
   width: 327px;
@@ -324,7 +324,7 @@ body {
   font-weight: 400;
   color: #344563;
 }
-  
+
 .myprofile-details-header-connect {
   top: 20px;
   width: 117px;
@@ -335,7 +335,7 @@ body {
   color: #7f8cff;
   position: relative;
 }
-  
+
 .mylink-media {
   top: 125px;
   position: relative;
@@ -343,16 +343,16 @@ body {
   display: flex;
   right: 24px;
 }
-  
+
 .mylink-media-profile {
   margin: 20px;
 }
-  
+
 .mylanguage-keyfeatures-tech {
   display: flex;
   flex-direction: column;
 }
-  
+
 .mylink-button-profile {
   top: 129px;
   position: relative;
@@ -363,7 +363,7 @@ body {
   border-radius: 8px;
   border: 2px solid #6070ff;
 }
-  
+
 .mylink-profile-btn {
   top: 9px;
   left: 6px;
@@ -383,14 +383,14 @@ body {
   border: none;
   background: transparent;
 }
-  
+
 .mylanguages-place-holder {
   left: 21px;
   position: relative;
 }
-  
-.mylanguages { 
-  margin-top: 167px; 
+
+.mylanguages {
+  margin-top: 167px;
 }
 
 #logo {
@@ -399,11 +399,11 @@ body {
   right: auto;
   left: 238px;
 }
-  
+
 .mylanguage-tech-list-button {
   margin-top: 20px;
   display: flex;
-  justify-content: self-start;
+  justify-content: space-evenly;
   align-self: center;
   width: 303px;
   height: 66.72px;
@@ -411,11 +411,11 @@ body {
   border-radius: 8px;
   border: none;
 }
-  
+
 .mylanguage-tech-list-button:hover {
   background-color: #eef1f6;
 }
-  
+
 .mylanguage-header-title {
   top: 5px;
   height: 24px;
@@ -428,7 +428,7 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
-  
+
 .myclient-language {
   height: 40px;
   font-family: 'Poppins', serif;
@@ -436,31 +436,31 @@ body {
   font-weight: 500;
   font-size: 15px;
 }
-  
+
 .mylanguage-frameworks-list {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-  
+
 hr {
   border-style: groove;
   width: 90%;
 }
-  
+
 .line-spacing {
   padding: 10%;
 }
-  
+
 .mylink-button-profile:hover {
   background-color: #396df2;
 }
-  
+
 .mylink-profile-btn:hover {
   color: whitesmoke;
 }
 
 /* mycontact styling */
-  
+
 .mycontact {
   background-image: url("./assets/header-shapes\ mobile.png");
   background-repeat: no-repeat;
@@ -468,7 +468,7 @@ hr {
   border-top-left-radius: 80px 80px;
   background-size: 100%;
 }
-  
+
 .mycontact-form-container {
   max-width: 1200px;
   display: block;
@@ -476,7 +476,7 @@ hr {
   margin: auto;
   padding: 42px;
 }
-  
+
 .mycontact-form-header-dsc {
   width: 334px;
   font-family: 'Poppins', serif;
@@ -487,7 +487,7 @@ hr {
   color: #fff;
   margin: auto;
 }
-  
+
 .mycontact-form-header-title {
   font-family: 'Poppins', serif;
   font-style: normal;
@@ -499,21 +499,21 @@ hr {
   position: relative;
   margin-top: 60px;
 }
-  
+
 #username {
   font-family: 'Poppins', serif;
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
 }
-  
+
 #email {
   font-family: 'Poppins', serif;
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
 }
-  
+
 #msg {
   margin-top: 8px;
   height: 170px;
@@ -525,7 +525,7 @@ hr {
   font-style: normal;
   font-weight: 400;
 }
-  
+
 .mycontact-form-input {
   height: 48px;
   width: 330px;
@@ -534,7 +534,7 @@ hr {
   margin: 5px 0;
   border-radius: 8px;
 }
-  
+
 .mycontact-button {
   position: relative;
   margin-top: 17px;
@@ -550,7 +550,7 @@ hr {
   border-radius: 8px;
   background-color: #fff;
 }
-  
+
 .mycontact-submit-btn {
   display: flex;
   align-items: center;
@@ -565,7 +565,7 @@ hr {
   border: none;
   background: transparent;
 }
-  
+
 input,
 textarea:valid {
   outline: 1px solid black;
@@ -574,509 +574,496 @@ textarea:valid {
 .mycontact-button:hover {
   background-color: #396df2;
 }
-  
+
 .mycontact-submit-btn:hover {
   color: whitesmoke;
 }
 
-  @media only screen and (min-width: 768px) {
-    .mylogo {
-      top: 10px;
-      margin: 25px;
-      right: -43px;
-      width: 76px;
-      height: 20px;
-      font-size: 18px;
-      font-family: 'Poppins', serif;
-      font-style: normal;
-      font-weight: 700;
-      position: relative;
-    }
-  
-    .mynavbar-ul {
-      display: flex;
-      justify-content: center;
-      margin: 25px;
-      margin-right: 154px;
-    }
-  
-    .hamburgeur {
-      display: none;
-    }
-  
-    .mynavbar-li {
-      top: 10px;
-      margin-right: 20px;
-      font-family: 'Poppins', serif;
-      font-style: normal;
-      font-size: 18px;
-      font-weight: 700;
-      color: #344563;
-      list-style-type: none;
-    }
-  
-    .mypage {
-      display:flex;
-      background-image: url("img/backgdeskop.png");
-      background-repeat: no-repeat;
-      background-size: 100%;
-      border-bottom-left-radius: 80px 80px;
-      background-color: white;
-    }
-  
-    .mypage-title{
-      margin:18%
-    }
-  
-    .mypage-container {
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    }
-  
-    .mypage-title-head {
-      width: 370px;
-      height: 122px;
-      align-items: center;
-      font-family: 'Poppins', serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 60px;
-      letter-spacing: 0.37px;
-      
-    }
-  
-    .mypage-title-dsc {
-      margin-top: 3px;
-      margin: 9px;
-      font-family: 'Poppins', serif;
-      font-style: normal;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 28px;
-      height: 98px;
-      align-self: self-end ;
-      color: #344563;
-      animation-duration: 2s;
-    }
-  
-    .mypage-title-connect {
-      width: 117px;
-      top: -8px;
-      height: 24px;
-      font-family: 'Poppins', serif;
-      font-style: normal;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      color: #7f8cff;
-    }
-  
-    .mylink {
-      left: 0;
-      top: -40px;
-    }
-  
-    .mylink-portfolio {
-      width: 29px;
-      height: 29px;
-    }
-  
-    .mycard {
-      width: 100%;
-    }
-  
-    .mycard-container {
-      display: grid;
-      grid-template-rows: auto auto auto auto;
-      background: #f7f7f9;
-      justify-content: center;
-      row-gap: 80px;
-      right: 48px;
-    }
-  
-    .mycard-place-holder {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-gap: 40px;
-      color: white;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      height: 496px;
-      position: relative;
-      width: 88%;
-      left: 5%;
-     
-    }
-  
-    .mycard-wrapper {
-      display: grid;
-      position: relative;
-      transition: transform 2s;
-    }
-  
-    .mycard-wrapper-1{
-      content: url("img/project.png");
-    }
-  
-    .mycard-wrapper-2 {
-      content: url("img/project2.png");
-      display: grid;
-      grid-column: 2;
-      grid-row: 1;
-      flex-grow: 1;
-    }
-  
-  
-    .mycard-wrapper-3{
-      content: url("img/project3.png");
-    }
-  
-  
-    .mycard-wrapper-4{
-      content: url("img/project4.png");
-      display: grid;
-      grid-column: 2;
-      grid-row: 1;
-    }
-  
-    .mycard-wrapper:hover {
-      transform:scale(1.1)
-    }
-  
-    .mycard-header {
-      position: relative;
-      top: -112px;
-    }
-  
-    .mycard-place-holder-2 .mycard-header{
-      left:10%;
-    }
-  
-    .mycard-place-holder-4 .mycard-header{
-      left:10%;
-    }
-  
-    .mycard-desc {
-      width: 400px;
-      font-weight: 800;
-      width: 91%;
-    }
-  
-  
-    .mycard-btn{
-      /*top:20px;*/
-    }
-  
-    .mycard-button{
-      height: 24px;
-      width: 53px;
-    }
-  
-    .mylanguage-header-title::after {
-      content: url(img/logo.png);
-      position: absolute;
-      right: 10px;
-    }
-  
-    .mylanguage-header-title .mylanguage-header-title-1::after {
-      content: url(./img/logo.png);
-      transform: rotate(90deg);
-      position: absolute;
-      right: 10px;
-    }
-  
-    .myprofile-details {
-      display: grid;
-      grid-template-columns: 30% 70%;
-      flex-wrap: wrap;
-      grid-gap: 40px;
-      margin-top: 0;
-    }
-  
-    .myprofile-details-container {
-      left:20%;
-      display: block;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-      width: 179%;
-    }
-  
-    .mylanguages-place-holder {
-      width: 67%;
-      left:13%;
-    }
-  
-    .myprofile-details-header-title {
-      font-family: 'Poppins', serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      color: #091e42;
-      display: flex;
-      align-items: center;
-      margin-top: 0;
-    }
-  
-    .myprofile-details-header {
-      width: 87%;
-    }
-  
-    .myprofile-details-header-dsc {
-      width: 79%;
-      height: 20%;
-      top: 13%;
-    }
-  
-    .myprofile-details-header-connect {
-      top: 0%;
-    }
-  
-    .mylink-media {
-      top: 18%;
-      left: -6%;
-    }
-  
-    .mylink-button-profile {
-      top: 11%;
-    }
-  
-    .mylanguage-header-title::after {
-      content: url(img/logo.png);
-      position: absolute;
-      right: 0;
-    }
-  
-    .mylanguage-header-title .mylanguage-header-title-1::after {
-      content: url(img/logo.png);
-      transform: rotate(90deg);
-      position: absolute;
-      right: 0;
-    }
-  
-    .mylanguage-keyfeatures-tech {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    .mylanguage-tech-list-button {
-      top: 12px;
-      width: 122px;
-      height: 122px;
-      display: block;
-      position: relative;
-      background: #f7f7f9;
-      border-radius: 8px;
-      position: relative;
-      left: 12px;
-      margin-right: 10px;
-    }
-  
-    hr {
-      width: 100%;
-      border-style: groove;
-      margin-left: 15px;
-      margin-bottom: 20px;
-    }
-  
-    .mylanguage-frameworks-list .mylanguage-skills-list {
-      margin-top: 3%;
-      margin-bottom: 3%;
-    }
-
-    #logo {
-      display: none;
-    }
-  
-    .mycontact {
-      background-image: url("img/backgdeskop.png");
-      background-repeat: no-repeat;
-      background-size:100%;
-    }
-  
-    .mycontact-form-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .mycontact-form-header {
-      margin-top: 20px;
-      width: 100%;
-      position: relative;
-    }
-
-    .line-spacing {
-      padding: 5%;
-    }
-  
-    .mycontact-form-header-dsc {
-      position: relative;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-  
-    .mycontact-form {
-      position: inherit;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      left: 193px;
-    }
-  
-    .mycontact-form-input{
-      width: 27.938rem;
-      height: 3rem;
-      margin-bottom: 20px;
-    }
+@media only screen and (min-width: 768px) {
+  .mylogo {
+    top: 10px;
+    margin: 25px;
+    right: -43px;
+    width: 76px;
+    height: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
   }
-  
-  @media only screen and (max-width: 768px) {
-    .navbar {
-      align-self: center;
-      margin-right: 6%;
-    }
 
-    .mypage {
-      height: 90vh;
-    }
-  
-    .mypage-container {
-      width: 96%;
-      padding-left: 3%;
-      padding-right: 3%;
-    }
-  
-    .togglebar {
-      left: 6%;
-    }
-
-    .mypage-title-dsc {
-      width: auto;
-      right: auto;
-      margin-left: 15px;
-    }
-  
-    .mycard {
-      display: flex;
-      width: 100%;
-      margin: auto;
-      justify-content: center;
-    }
-  
-    .mycard-pic{
-      width: 100%;
-    }
-  
-    .mycard-header {
-      width: 100%;
-    }
-  
-    .mycard-desc {
-      margin-top: 40px;
-    }
-  
-    .keyfeatures,
-    .mycard-desc,
-    .mycard-btn {
-      position: inherit;
-    }
-  
-    .mycard-features {
-      left: 0;
-    }
-  
-    .counter-png {
-      top: 18px;
-      left: -5px;
-    }
-  
-    .mycard-project-button {
-      position: inherit;
-      top: 0;
-    }
-  
-    .mycard-header-title {
-      margin-bottom: 0;
-      margin-top: 0;
-    }
-  
-    .mycard-button {
-      padding: 0;
-    }
-  
-    .mylanguages-place-holder {
-      width: 90%;
-      margin: auto;
-    }
-  
-    .mylanguages {
-      padding-left: 0;
-      margin-top: 50px;
-    }
-  
-    .myclient-language {
-      margin-top: 15px;
-      margin-left: 15px;
-    }
-  
-    .mylanguage-tech-list-button {
-      align-items: center;
-      width: 90%;
-    }
-  
-    .myprofile-details {
-      width: 100%;
-    }
-  
-    .myprofile-details-container {
-      width: 80%;
-      margin: auto !important;
-    }
-  
-    .myprofile-details-header {
-      position: inherit;
-      padding-top: 120px;
-    }
-  
-    .mylink-media {
-      margin-top: 30px;
-      position: inherit;
-      padding-left: 0;
-    }
-  
-    .mylink-button-profile {
-      position: inherit;
-      left: 0%;
-    }
-  
-    #logo {
-      display: none;
-    }
-  
-    .mylanguage-header-title {
-      left: 0;
-      right: auto;
-    }
-  
-    .mycontact-form-container {
-      justify-content: center;
-    }
-  
-    .mycontact-form {
-      position: inherit;
-    }
-  
-    .mycontact-form-header-dsc {
-      width: auto;
-    }
-  
-    .mycontact-form-input {
-      max-width: 100%;
-    }
+  .mynavbar-ul {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-right: 154px;
   }
+
+  .hamburgeur {
+    display: none;
+  }
+
+  .mynavbar-li {
+    top: 10px;
+    margin-right: 20px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #344563;
+    list-style-type: none;
+  }
+
+  .mypage {
+    display: flex;
+    background-image: url("img/backgdeskop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom-left-radius: 80px 80px;
+    background-color: white;
+  }
+
+  .mypage-title {
+    margin: 18%;
+  }
+
+  .mypage-container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mypage-title-head {
+    width: 370px;
+    height: 122px;
+    align-items: center;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .mypage-title-dsc {
+    margin-top: 3px;
+    padding: 9px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 98px;
+    align-self: self-end;
+    color: #344563;
+    animation-duration: 2s;
+  }
+
+  .mypage-title-connect {
+    width: 117px;
+    top: -8px;
+    height: 24px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .mylink {
+    left: 0;
+    top: -40px;
+  }
+
+  .mylink-portfolio {
+    width: 29px;
+    height: 29px;
+  }
+
+  .mycard {
+    width: 100%;
+  }
+
+  .mycard-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background: #f7f7f9;
+    justify-content: center;
+    row-gap: 80px;
+    right: 48px;
+  }
+
+  .mycard-place-holder {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    color: white;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 496px;
+    position: relative;
+    width: 88%;
+    left: 5%;
+  }
+
+  .mycard-wrapper {
+    display: grid;
+    position: relative;
+    transition: transform 2s;
+  }
+
+  .mycard-wrapper-1 {
+    content: url("img/project.png");
+  }
+
+  .mycard-wrapper-2 {
+    content: url("img/project2.png");
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    flex-grow: 1;
+  }
+
+  .mycard-wrapper-3 {
+    content: url("img/project3.png");
+  }
+
+  .mycard-wrapper-4 {
+    content: url("img/project4.png");
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .mycard-wrapper:hover {
+    transform: scale(1.1);
+  }
+
+  .mycard-header {
+    position: relative;
+    top: -112px;
+  }
+
+  .mycard-place-holder-2 .mycard-header {
+    left: 10%;
+  }
+
+  .mycard-place-holder-4 .mycard-header {
+    left: 10%;
+  }
+
+  .mycard-desc {
+    width: 91%;
+    font-weight: 800;
+  }
+
+  .mycard-btn {
+    /* top:20px; */
+  }
+
+  .mycard-button {
+    height: 24px;
+    width: 53px;
+  }
+
+  .mylanguage-header-title::after {
+    content: url(img/logo.png);
+    position: absolute;
+    right: 10px;
+  }
+
+  .mylanguage-header-title-1::after {
+    content: url(./img/logo.png);
+    transform: rotate(90deg);
+    position: absolute;
+    right: 10px;
+  }
+
+  .myprofile-details {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+    margin-top: 0;
+  }
+
+  .myprofile-details-container {
+    left: 20%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 179%;
+  }
+
+  .mylanguages-place-holder {
+    width: 67%;
+    left: 13%;
+  }
+
+  .myprofile-details-header-title {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #091e42;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .myprofile-details-header {
+    width: 87%;
+  }
+
+  .myprofile-details-header-dsc {
+    width: 79%;
+    height: 20%;
+    top: 13%;
+  }
+
+  .myprofile-details-header-connect {
+    top: 0%;
+  }
+
+  .mylink-media {
+    top: 18%;
+    left: -6%;
+  }
+
+  .mylink-button-profile {
+    top: 11%;
+  }
+
+  .mylanguage-header-title .mylanguage-header-title-1::after {
+    content: url(img/logo.png);
+    transform: rotate(90deg);
+    position: absolute;
+    right: 0;
+  }
+
+  .mylanguage-keyfeatures-tech {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mylanguage-tech-list-button {
+    top: 12px;
+    width: 122px;
+    height: 122px;
+    display: block;
+    position: relative;
+    background: #f7f7f9;
+    border-radius: 8px;
+    left: 12px;
+    margin-right: 10px;
+  }
+
+  hr {
+    width: 100%;
+    border-style: groove;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .mylanguage-frameworks-list .mylanguage-skills-list {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .mycontact {
+    background-image: url("img/backgdeskop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .mycontact-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mycontact-form-header {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+  }
+
+  .line-spacing {
+    padding: 5%;
+  }
+
+  .mycontact-form-header-dsc {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .mycontact-form {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 193px;
+  }
+
+  .mycontact-form-input {
+    width: 27.938rem;
+    height: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    align-self: center;
+    margin-right: 6%;
+  }
+
+  .mypage {
+    height: 90vh;
+  }
+
+  .mypage-container {
+    width: 96%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .togglebar {
+    left: 6%;
+  }
+
+  .mypage-title-dsc {
+    width: auto;
+    right: auto;
+    margin-left: 15px;
+  }
+
+  .mycard {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .mycard-pic {
+    width: 100%;
+  }
+
+  .mycard-header {
+    width: 100%;
+  }
+
+  .mycard-desc {
+    margin-top: 40px;
+  }
+
+  .keyfeatures,
+  .mycard-desc,
+  .mycard-btn {
+    position: inherit;
+  }
+
+  .mycard-features {
+    left: 0;
+  }
+
+  .counter-png {
+    top: 18px;
+    left: -5px;
+  }
+
+  .mycard-project-button {
+    position: inherit;
+    top: 0;
+  }
+
+  .mycard-header-title {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .mycard-button {
+    padding: 0;
+  }
+
+  .mylanguages-place-holder {
+    width: 90%;
+    margin: auto;
+  }
+
+  .mylanguages {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+
+  .myclient-language {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  .mylanguage-tech-list-button {
+    align-items: center;
+    width: 90%;
+  }
+
+  .myprofile-details {
+    width: 100%;
+  }
+
+  .myprofile-details-container {
+    width: 80%;
+    margin: auto !important;
+  }
+
+  .myprofile-details-header {
+    position: inherit;
+    padding-top: 120px;
+  }
+
+  .mylink-media {
+    margin-top: 30px;
+    position: inherit;
+    padding-left: 0;
+  }
+
+  .mylink-button-profile {
+    position: inherit;
+    left: 0%;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .mylanguage-header-title {
+    left: 0;
+    right: auto;
+  }
+
+  .mycontact-form-container {
+    justify-content: center;
+  }
+
+  .mycontact-form {
+    position: inherit;
+  }
+
+  .mycontact-form-header-dsc {
+    width: auto;
+  }
+
+  .mycontact-form-input {
+    max-width: 100%;
+  }
+}
