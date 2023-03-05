@@ -1,225 +1,249 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stenli's portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>stenli's portfolio</title>
+    <link rel="stylesheet" href="styles_.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
 </head>
-
 <body>
-    <section class="time-bar">
-        <div class="time-clock">
-            <div class="time-mobile"><time datetime="20:00">9:41</time></div>
-                <div class="status-signal"><li><img src="img/cellular.png" width=20px height=20px></li></div>
-                <div class="status-internet"><img src="img/internet_signal.jpg" width=20px height=20px></div>
-                <div class="status-battery"><img src="img/battery.jpg" width=20px height=20px></div>
-            </ul>
-            <div class="battery-meter"> <label for="battery"></label> <br> </div>
+
+<section class="togglebar" >
+    <!--Fixed navbar when scrolling up or down-->
+    <a class="mylogo" href="">My logo</a>
+    <nav class="mynavbar">
+        <ul class="mynavbar-ul">
+            <li class="mynavbar-li">Portfolio</li>
+            <li class="mynavbar-li">About</li>
+            <li class="mynavbar-li">Contact</li>
+        </ul>
+        <img class="hamburgeur" src="img/hamburgeur.png" alt="hambugeur-icon">
+    </nav>
+
+</section>
+<!--my page contain header branding -->
+<section class="mypage" >
+    <div class="mypage-container">
+    <div class="mypage-title">
+        <h2 class="mypage-title-text mypage-title-head">I'm Stenli Glad to see you</h2>
+         <p class="mypage-title-text mypage-title-dsc" >I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p> 
+         <p class="mypage-title-text mypage-title-connect">LETS CONNECT</p> 
+     
+        <ul class="mylink">
+            <li class="mylink-portfolio mylink-twitter"><a  href="#"> <img class="mytwitter-img" src="./assets/twitter.png" alt="twitter"></a></li> 
+            <li class="mylink-portfolio mylink-linkedin"><a  href="#"><img class="mylinkedin-img" src="./assets/Linkedin icon.png" alt="linkedin"></a></li>
+            <li class="mylink-portfolio mylink-m"><a  href="#"><img class="mym-media-img" src="./assets/m-icon.png" alt="m-icon"></a></li>
+            <li class="mylnk-portfolio mylink-github"><a  href="#"><img class="mygithub-img" src="./assets/git.png" alt="github"></a></li>
+            <li class="mylink-portfolio mylink-fingers"><a  href="#"><img class="myvictory-img" src="./assets/unknown.png" alt=""></a></li>
+        </ul>
+    </div>
+</div>
+</section>
+
+<!--mycard contain project card-->
+
+<section class="mycard" >
+    <div class="mycard-container">        
+     <div class="mycard-place-holder mycard-place-holder-1">
+        <div class="mycard-wrapper mycard-wrapper-1">
+            <img class="mycard-pic mycard-pic-1"src="assets/Portfolio.png" alt="">
         </div>
-        <nav>
-            <div class="navbar-mylogo">
-                <div class="navbar-list">
-                    <div class="mylogo"><h2>My Logo</h2></div>
-                    <div class="myhamburgeur"> <button class="myhamburgeur-button" id="myhamburgeur-buttons" type="button"><img class="myhamburgeur-img" src="img/hamburgeur.png"></button>
-                    <div class="mynavbar" id="mynavbars">
-                        <ul id="mynav">
-                            <li class="mynav-list"><a class="mynav-align" href="#">about</a></li>
-                            <li class="mynav-list"><a class="mynav-align" href="#">portfolio</a></li>
-                            <li class="mynav-list"><a class="mynav-align" href="#">contact</a></li>
-                        </ul>
-                    </div>
+        <div class="mycard-header">
+            <h3 class="mycard-header-title">Tonic</h3>
+                <div class="keyfeatures">    
+                    <p class="mycard-features mycard-key-features"> CANOPY </p>
+                    <p class="mycard-features">Backend</p>
+                    <p class="mycard-features">2015</p>
+                </div>
+            <p class="mycard-desc">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>          
+                <div class="mycard-btn">
+                    <div class="mycard-container-btn">
+                    <ul class="mycard-button">
+                        <li class="mycard-button-li">html</li>
+                        <li class="mycard-button-li">css</li>
+                        <li class="mycard-button-li">javascript</li>
+                    </ul> 
+                </div>
+                <div class="mycard-project-button">
+                    <button class="mycard-project-btn">
+                    See Project
+                    </button>
+                 </div>
+            </div>
+        </div>
+    </div>
+        <div class="mycard-place-holder mycard-place-holder-2">
+            <div class="mycard-wrapper mycard-wrapper-2">
+                <img class="mycard-pic mycard-pic-2" src="assets/Portfolio2.png" alt="">
+            </div>
+            <div class="mycard-header">
+                <h3 class="mycard-header-title">Multi-Post Stories</h3>
+                    <ul class="keyfeatures">    
+                        <li class="mycard-features mycard-key-features"> Facebook </li>
+                        <li class="mycard-features">Full Stack Dev</li>
+                        <li class="mycard-features">2015</li>
+                    </ul>
+                <p class="mycard-desc">
+                    Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+                </p>          
+                    <div class="mycard-btn">
+                        <div class="mycard-container-btn"></div>
+                        <ul class="mycard-button">
+                            <li class="mycard-button-li">html</li>
+                            <li class="mycard-button-li">css</li>
+                            <li class="mycard-button-li">javascript</li>
+                        </ul> 
+                    <div class="mycard-project-button">
+                        <button class="mycard-project-btn">
+                        See Project
+                        </button>
+                     </div>
                 </div>
             </div>
-        </nav>
-    </section>
-    <section class="page-header">
-        <div class="container">
-            <h1 class="text-header"> I'm Stenli Glad to see you! </h1>
-            <p class="text-header-desc"> I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me. </p>
-            <p class="text-header-connect"> LET'S CONNECT </p>
-            <ul class="link-portfolio">
-                <li class="link-portfolio-text logo-pads"><img src="img/twitter-Icon.svg"></li>
-                <li class="link-portfolio-text logo-pads"><img src="img/Linkedin-Icon.svg"></li>
-                <li class="link-portfolio-text logo-pads"><img src="img/M-Icon.svg"></li>
-                <li class="link-portfolio-text logo-pads"><img src="img/github-Icon.svg"></li>
-                <li class="link-portfolio-text logo-pads"><img src="img/victory-Icon.svg"></li>
-            </ul>
         </div>
-    </section>
-    <section class="card">
-        <div class="card-holder-1">
-            <div class="card-holder-place">
-                <ul class="card-holders">
-                    <li class="card-holder">
-                        <div class="card-holder-div"> <img class="card-details-img" src="img/facebook.png" alt="facebook project"> </div>
-                        <div class="card-details-text">
-                            <h2 class="card-details-title"> Tonic </h2>
-                            <div class="card-details-subtitle">
-                                <div class="card-details-subtitle-li" id="card-details-subtitle-1"> CANOPY </div>
-                                <div class="card-details-subtitle-li"><span class="dot"></span>     Back End Dev</div>
-                                <div class="card-details-subtitle-li"> <span class="dot"></span>      2015</div>
-                            </div>
-                            <p class="card-details-dsc"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
-                            <div class="card-details-topics">
-                                <div class="card-details-topics-text-1"> html </div>
-                                <div class="card-details-topics-text-2"> css </div>
-                                <div class="card-details-topics-text-3"> javascript </div>
-                            </div>
-                            <div class="card-details-btn"> <button type="button" class="btn" id="0"> See Project </button> </div>
-                        </div>
-                    </li>
-                    </li>
-                </ul>
+        <div class="mycard-place-holder mycard-place-holder-3">
+            <div class="mycard-wrapper mycard-wrapper-3">
+                <img class="mycard-pic mycard-pic-3"src="assets/Portfolio3.png" alt="">
             </div>
-        </div>
-        <div class="card-holder-2">
-            <div class="card-holder-place-2">
-                <ul class="card-holders">
-                    <li class="card-holder">
-                        <div class="card-holder-div"> <img class="card-details-img" src="img/multi-stories.png" alt="facebook project"> </div>
-                        <div class="card-details-text-2">
-                            <h2 class="card-details-title"> Multi-Post Stories </h2>
-                            <div class="card-details-subtitle-2">
-                                <div class="card-details-subtitle-li" id="card-details-subtitle-1"> CANOPY </div>
-                                <div class="card-details-subtitle-li"><span class="dot"></span>     Back End Dev</div>
-                                <div class="card-details-subtitle-li"> <span class="dot"></span>      2015</div>
-                            </div>
-                            <p class="card-details-dsc"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
-                            <div class="card-details-topics">
-                                <div class="card-details-topics-text-1"> html </div>
-                                <div class="card-details-topics-text-2"> css </div>
-                                <div class="card-details-topics-text-3"> javascript </div>
-                            </div>
-                            <div class="card-details-btn"> <button type="button" class="btn" id="0"> See Project </button> </div>
-                        </div>
-                    </li>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="card-holder-1">
-            <div class="card-holder-place">
-                <ul class="card-holders">
-                    <li class="card-holder">
-                        <div class="card-holder-div"> <img class="card-details-img" src="img/tonic-orange.png" alt="facebook project"> </div>
-                        <div class="card-details-text">
-                            <h2 class="card-details-title"> Tonic </h2>
-                            <div class="card-details-subtitle">
-                                <div class="card-details-subtitle-li" id="card-details-subtitle-1"> CANOPY </div>
-                                <div class="card-details-subtitle-li"><span class="dot"></span>     Back End Dev</div>
-                                <div class="card-details-subtitle-li"> <span class="dot"></span>      2015</div>
-                            </div>
-                            <p class="card-details-dsc"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
-                            <div class="card-details-topics">
-                                <div class="card-details-topics-text-1"> html </div>
-                                <div class="card-details-topics-text-2"> css </div>
-                                <div class="card-details-topics-text-3"> javascript </div>
-                            </div>
-                            <div class="card-details-btn"> <button type="button" class="btn" id="0"> See Project </button> </div>
-                        </div>
-                    </li>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="card-holder-2">
-            <div class="card-holder-place-2">
-                <ul class="card-holders">
-                    <li class="card-holder">
-                        <div class="card-holder-div"> <img class="card-details-img" src="img/prof-art-project.png" alt="facebook project"> </div>
-                        <div class="card-details-text-2">
-                            <h2 class="card-details-title"> Multi-Post Stories </h2>
-                            <div class="card-details-subtitle-2">
-                                <div class="card-details-subtitle-li" id="card-details-subtitle-1"> CANOPY </div>
-                                <div class="card-details-subtitle-li"><span class="dot"></span>     Back End Dev</div>
-                                <div class="card-details-subtitle-li"> <span class="dot"></span>      2015</div>
-                            </div>
-                            <p class="card-details-dsc"> A daily selection of privately personalized reads; no accounts or sign-ups required. </p>
-                            <div class="card-details-topics">
-                                <div class="card-details-topics-text-1"> html </div>
-                                <div class="card-details-topics-text-2"> css </div>
-                                <div class="card-details-topics-text-3"> javascript </div>
-                            </div>
-                            <div class="card-details-btn"> <button type="button" class="btn" id="0"> See Project </button> </div>
-                        </div>
-                    </li>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="footer">
-        <div class="footer-holder-1">
-            <div class="footer-holder-place">
-                <ul class="footer-holders">
-                    <li class="footer-holder">
-                        <div class="footer-holder-div">
-                            <h1 class="footer-About"> About Myself </h1>
-                            <p class="footer-About-dsc"> Hello I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! if you like what you see and have a project you need coded, don't hesitate to contact me. </p>
-                        </div>
-                    </li>
-                    <div>
-                        <p class="text-header-connect-footer"> LET'S CONNECT </p>
-                        <ul class="link-portfolio">
-                            <li class="link-portfolio-text-footer"><img src="img/twitter-Icon.svg"></li>
-                            <li class="link-portfolio-text-footer"><img src="img/Linkedin-Icon.svg"></li>
-                            <li class="link-portfolio-text-footer"><img src="img/M-Icon.svg"></li>
-                            <li class="link-portfolio-text-footer"><img src="img/github-Icon.svg"></li>
-                            <li class="link-portfolio-text-footer"><img src="img/victory-Icon.svg"></li>
-                        </ul>
-                        <div class="footer-details-btn"> <button type="button" class="footer-About-btn" id="0"> Get my resume </button> </div>
+            <div class="mycard-header">
+                <h3 class="mycard-header-title">Tonic</h3>
+                    <div class="keyfeatures">    
+                        <p class="mycard-features mycard-key-features"> CANOPY </p>
+                        <p class="mycard-features">Backend</p>
+                        <p class="mycard-features">2015</p>
                     </div>
-                    <div class="footer-details-text">
-                        <h2 class="footer-languages">Languages</h2>
-                        <div class="footer-details-topics">
-                            <div class="footer-details-topics-text-1"> <img class="footer-img" src="img/js.png" alt="Javascript">
-                                <div class="footer-javascript">Javascript</div>
-                            </div>
-                            <div class="footer-details-topics-text-2"> <img class="footer-img" src="img/html.png" alt="Javascript">
-                                <div class="footer-html">HTML</div>
-                            </div>
-                            <div class="footer-details-topics-text-3"> <img class="footer-img" src="img/css.png" alt="Javascript">
-                                <div class="footer-css">CSS</div>
-                            </div>
-                        </div>
-                        <div class="footer-details-btn">
-                            <div class="footer-details-btn-frameworks"> <img class="footer-frameworks-img-1" src="img/arrow.png" alt="Javascript">
-                                <div class="footer-frameworks">frameworks</div>
-                            </div>
-                            <hr>
-                            <div class="footer-details-btn-skills"> <img class="footer-frameworks-img-2" src="img/arrow.png" alt="Javascript">
-                                <div class="footer-frameworks">skills</div>
-                            </div>
-                            <hr>
-                        </div>
+                <p class="mycard-desc">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>          
+                    <div class="mycard-btn">
+                        <div class="mycard-container-btn">
+                        <ul class="mycard-button">
+                            <li class="mycard-button-li">html</li>
+                            <li class="mycard-button-li">css</li>
+                            <li class="mycard-button-li">javascript</li>
+                        </ul> 
                     </div>
-                    </li>
-                </ul>
+                    <div class="mycard-project-button">
+                        <button class="mycard-project-btn">
+                        See Project
+                        </button>
+                     </div>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="contact-form" id="contact">
-        <div class="contact-form-container">
-            <h2 class="contact-form-title">Contact me</h2>
-            <p class="contact-form-dsc"> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-            <form id="form-spree" action="https://formspree.io/f/xjvdwzoz" method="post">
-                <ul class="ul">
-                    <li> <label for="fname" class="form-name"></label> <input type="text" id="fname" class="contact-name" name="contact-name" placeholder="Yeremias" required maxlength="30" minlength="5" /> </li>
-                    <li> <label for="email" class="contact-email"></label> <input type="email" id="email" class="contact-email-address" placeholder="natajayanj14@gmail.com" name="contact-email-address" required /> </li>
-                    <li> <label for="message" class="contact-form-message"></label> <textarea id="message" class="contact-message" name="contact-message" placeholder="Write your message here" cols="30" rows="8" maxlength="500" minlength="5" required></textarea> </li>
-                    <li> <input id="submit-text" type="submit" value="Get It Touch" class="submit-button" />
-                        <p class="error"></p>
-                    </li>
-                </ul>
-            </form>
+        <div class="mycard-place-holder mycard-place-holder-4">
+            <div class="mycard-wrapper mycard-wrapper-4">
+                <img class="mycard-pic mycard-pic-4" src="assets/Portfolio4.png" alt="">
+            </div>
+            <div class="mycard-header ">
+                <h3 class="mycard-header-title">Tonic</h3>
+                    <div class="keyfeatures">    
+                        <p class="mycard-features mycard-key-features"> CANOPY </p>
+                        <p class="mycard-features">Backend</p>
+                        <p class="mycard-features">2015</p>
+                    </div>
+                <p class="mycard-desc">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>          
+                    <div class="mycard-btn">
+                        <div class="mycard-container-btn"></div>
+                        <ul class="mycard-button">
+                            <li class="mycard-button-li">html</li>
+                            <li class="mycard-button-li">css</li>
+                            <li class="mycard-button-li">javascript</li>
+                        </ul> 
+                    <div class="mycard-project-button">
+                        <button class="mycard-project-btn">
+                        See Project
+                        </button>
+                     </div>
+                </div>
+            </div>
         </div>
-    </section>
-</body>
+        
+    </div>
+</section>
+<!--myprofile contain essential source information for all who want to know more about my business -->
+<section class="myprofile-details"> 
+        
+    <div class="myprofile-details-container">
+        <div class="myprofile-details-header">
+            <h2 class="myprofile-details-header-title">About <br>Myself<br></h2>
+            <p class="myprofile-details-header-dsc">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <h2 class ="myprofile-details-header-connect">LETS CONNECT</h2>
+        </div>
+        <ul class="mylink-media">
+            <li class="mylink-media-profile my-twitter-profile"><a  href="#"><img src="./assets/twitter.png" alt=""></a></li>
+            <li class="mylink-media-profile my-linkedin-profile"><a  href="#"><img  src="./assets/Linkedin icon.png" alt=""></a></li>
+            <li class="mylink-media-profile my-m-media-profile"><a  href="#"><img  src="./assets/m-icon.png" alt=""></a></li>
+            <li class="mylink-media-profile my-github-profile"><a  href="#"><img  src="./assets/git.png" alt=""></a></li>
+            <li class="mylink-media-profile my-unknown-profile"><a  href="#"><img  src="./assets/unknown.png" alt=""></a></li>
+        </ul>
+        <div class="mylink-button-profile">
+            <button class="mylink-profile-btn">Get my resume</button>
+        </div>
+    </div>
+ <div class="mylanguages-place-holder">
+    <ul class="mylanguages">
+        <li class="mylanguage-header-title mylanguage-header-title-1">languages</li>
+         
+        <div class="mylanguage-keyfeatures-tech">
+            <li class="mylanguage-tech-list">
+            <button class="mylanguage-tech-list-button">
+                <img src="./assets/js.png" alt="">
+                <li class="myclient-language myclient-language-js"> javascript </li>
+                <img id="logo"src="/assets/icon.png" alt="">
+            </button> 
+            </li>
 
+            <li class="mylanguage-tech-list">
+            <button class="mylanguage-tech-list-button">
+                <img src="./assets/html.png" alt="">
+                <li class="myclient-language myclient-language-html"> HTML </li>
+                <img id="logo"src="/assets/icon.png" alt="">
+            </button> 
+            </li>
+
+            <li class="mylanguage-tech-list">
+            <button class="mylanguage-tech-list-button">
+                <img src="./assets/css.png" alt="">
+                <li class="myclient-language myclient-language-css"> CSS </li>
+                <img id="logo"src="/assets/icon.png" alt="">
+            </button> 
+            </li>
+        </div>
+        <li class="mylanguage-header-title mylanguage-frameworks-list"> frameworks </li>
+        <hr>
+        <li class="mylanguage-header-title mylanguage-skills-list"> skills </li>
+        <hr>
+    </ul>
+</div>
+    <div class="line-spacing"></div>
+</section>
+<!--mycontact is a shortweb based form published on a website where visitor can fll out form and submit it to send a message-->
+<section class="mycontact">
+    <div class="mycontact-form-container">
+        <div class="mycontact-form-header">
+            <h2 class="mycontact-form-header-title">contact me</h2>
+            <p class="mycontact-form-header-dsc">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        </div>
+        <form class="mycontact-form" action= "https://formspree.io/f/xjvdwzoz" method="POST">
+                  <input class= "mycontact-form-input" type="text" id="username" name="username" placeholder="type name" required maxlength="30" minlength = "5" required/>
+                  <input class= "mycontact-form-input" type="email" id="email" name="email" placeholder="type email" minlength = "5" required/>
+                  <textarea class= "mycontact-form-input" id="msg" name="user_message" placeholder="write your message here" maxlength="500" minlength = "5" required ></textarea>
+            <div class="mycontact-button">
+                <button type="submit" class="mycontact-submit-btn">Get in touch</button>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
 </html>
+
