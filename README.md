@@ -114,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://stenlisuryadinata.github.io/portfolio/)
+- [Live Demo Link](https://stenlisuryadinata.github.io/mobile_portfolio_test/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
